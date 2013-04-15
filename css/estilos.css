@@ -1,0 +1,712 @@
+body {
+	height:100%;
+	padding:0px;
+	margin:0px;
+	background:url("../images/back.jpg") left top repeat-x;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+img {
+ 	border:0px;
+}
+
+/* Estructura*/
+
+#contenedor {
+	width:100%;
+	height:1191px;
+	margin:auto;
+	float:left;
+	padding:0px;
+}
+#contenedorPQ {
+	width:100%;
+	height:1032px;
+	margin:auto;
+	float:left;
+	padding:0px;
+}
+
+#bckmenu {
+	margin:auto;
+	width:100%;
+	height:33px;
+	background:url("../images/bckMenu.jpg") repeat-x;
+	float:left;
+}
+/* ^ Hijo */ #menu {
+			    width:1000px;
+				height:33px;
+				margin:auto;
+				background:url("../images/bckMenu.jpg") repeat-x;
+			 }
+			 /* ^ Hijo */ #menu2 {
+			   				width:114px;
+							height:33px;
+							margin:auto;
+							float:left;
+			 			  }
+						  #menu3 {
+			   				width:236px;
+							height:33px;
+							margin:auto;
+							float:left;
+			 			  }
+						  .menuSup {
+			   				width:auto;
+							height:32px;
+							margin:auto;
+							float:left;
+							padding:0px;
+							border-left:solid 1px #385e87;
+			 			  }
+						  	.menuSup a:hover{
+			   					width:auto;
+								height:32px;
+			   					background:url("../images/ind.png") bottom center no-repeat;
+			 			  	}
+						  	.menuSup a{
+								height:32px;
+						  		display:table-cell;
+								font-size:12px;
+								color:white;
+								font-family:Arial;
+								text-decoration:none;
+								margin:0px;
+								padding:8px 5px 0px 5px;
+								border-right:solid 1px #385e87;
+			 				}
+#contBODY{
+	height:1158px;
+	width:1000px;
+	margin:auto;
+}
+#contBODYPQ{
+	height:1000px;
+	width:1000px;
+	margin:auto;
+}
+#arriba{
+	height:126px;
+	width:966px;
+	float:left;
+}
+/* ^ Hijo */ #logo {
+			    width:264px;
+				height:126px;
+				margin:auto;
+				float:left;
+			 }
+			 .social {
+			    width:36px;
+				height:68px;
+				margin:auto;
+				float:right;
+				display:block;
+			 }
+			 .social a img{
+				margin-top:20px;
+			 }
+			 #rell2 {
+			    width:107px;
+				height:68px;
+				margin:auto;
+				float:right;
+				display:block;
+			 }
+.menuprincipal {
+	width:702px;
+	height:58px;
+	float:left;
+	font-size: 15px;
+			 }
+.menuprincipal ul {
+	padding: 0px;
+	float: right;
+	list-style-type: none;
+	margin: 10px 0px 0px 0px;
+}
+.menuprincipal li {
+	margin-right: 15px;
+	display: inline;
+}
+
+
+.menuprincipal a{
+	color:#25466a;
+	text-decoration:none;
+	font-family:Arial;
+	font-weight:bold;
+			 }
+.menuprincipal a:hover{
+			 	color:white;
+			 }
+#bodyCent{
+	height:956px;
+	width:966px;
+}
+#bodyCentPQ{
+	height:auto;
+	width:966px;
+	float:left;
+}
+/* ^ Hijo */ #bodyCent1 {
+			    width:260px;
+				height:227px;
+				margin:auto;
+				float:left;
+			 }
+			 /* ^ Hijo */ #rell4 {
+			   				width:260px;
+							height:30px;
+							margin:auto;
+							background:url("../images/BodyCent-1_15.png") no-repeat right;
+							float:left;
+			 			  }
+						  #rell5 {
+							width:259px;
+							height:28px;
+							margin:auto;
+							background:white;
+							float:right;
+			 			  }
+						  /* ^ Hijo */ #rell51{
+						  					width:230px;
+											height:28px;
+											background:#0cb5ca;
+											float:left;
+											margin-left:10px;
+						  				}
+										#rell51 h1{
+											color:white;
+											font-size:20px;
+											text-align:left;
+											margin:0px 0px 0px 30px;
+											font-family:Arial;
+											font-weight:bold;
+										}
+										#rell52{
+						  					width:13px;
+											height:28px;
+											background:#0aa6bf;
+											float:left;
+						  				}
+										#rell53{
+						  					width:5px;
+											height:28px;
+											background:#0597bc;
+											float:left;
+						  				}
+						  #busca {
+			   				width:260px;
+							height:118px;
+							background:url("../images/BodyCent-1_19.jpg") no-repeat right;
+							float:left;
+							text-align:left;
+							margin:auto;
+			 			  }
+						  .buscador table{
+						  	width:260px;
+							height:118px;
+						  }
+						  .buscador table p{
+							font-family:Arial, Helvetica, sans-serif;
+							font-size:12px;
+							font-weight:bold;
+							text-align:left;
+							color:#666666;
+							margin:0px 0px 0px 25px;
+						  }
+						  .buscador table form{
+						  	text-align:right;
+							margin:0px 10px 0px 0px;
+						  }
+						  #rell6 {
+			   				width:137px;
+							height:51px;
+							margin:auto;
+							background:white;
+							float:right;
+			 			  }
+						  #consul {
+			   				width:122px;
+							height:51px;
+							margin:auto;
+							float:right;
+			 			  }
+						  #rell7 {
+			   				width:260px;
+							height:54px;
+							margin:auto;
+							background:white;
+							float:left;
+			 			   }
+/* ^ Hijo */ #bodyCent2 {
+			    width:706px;
+				height:347px;
+				margin:auto;
+				float:left;
+			 }
+			 /* ^ Hijo */ #foto {
+			   				width:706px;
+							height:347px;
+							margin-top:1px;
+							float:left;
+							position:absolute;
+							z-index:0;
+			 			  }
+						  #Zona {
+						  	float:left;
+						  	position:relative;
+							width:auto;
+							height:63px;
+							z-index:1;
+							top:30px;
+							left:5px;
+						  }
+						  /* ^ Hijo */ #Zona1{
+						  					width:auto;
+											height:63px;
+											float:left;
+											background:#4aad01;
+						  				}
+										#Zona1 p{
+						  					color:white;
+											font-size:45px;
+											margin:4px 15px 0px 15px;
+											font-weight:bolder;
+						  				}
+										#Zona2{
+						  					width:10px;
+											height:63px;
+											float:left;
+											background:#afda02;
+						  				}
+										#Zona3{
+						  					width:4px;
+											height:63px;
+											float:left;
+											background:#ffea00;
+						  				}
+							
+						   #Costo {
+						   	float:right;
+						  	 position:relative;
+							 width:auto;
+							 height:63px;
+							 z-index:1;
+							 top:30px;
+							 right:6px;
+						   }
+							/* ^ Hijo */ #Costo1{
+						  					width:4px;
+											height:63px;
+											float:right;
+											background:#ffea00;
+						  				}
+										#Costo2{
+						  					width:10px;
+											height:63px;
+											float:right;
+											background:#afda02;
+						  				}
+										#Costo3{
+						  					width:auto;
+											height:63px;
+											float:right;
+											background:#4aad01;
+						  				}
+										#Moneda{
+											display:block;
+											float:left;
+						  					color:white;
+											font-size:20px;
+											margin:10px 0px 0px 15px;
+											font-family:Arial;
+										}
+										#Numero{
+											display:block;
+											float:right;
+						  					color:white;
+											font-size:45px;
+											margin:4px 10px 0px 5px;
+											font-weight:bolder;
+						  				}
+										
+						  #fotMedio {
+						  	width:706px;
+							height:1px;
+							background:blue;
+							float:left;
+						  }
+						  
+						  #fotBoton1 {
+						  	width: 106px;
+							height:100px;
+							margin:auto;
+							float:left;
+							left:3px;
+							top:182px;
+							position:relative;
+							z-index:1;
+						  }
+						  #fotBoton2 {
+						  	width: 104px;
+							height:114px;
+							margin:auto;
+							float:right;
+							left:0px;
+							top:170px;
+							position:relative;
+							z-index:1;
+						  }
+/* ^ Hijo */ #bodyCent2PQ {
+			    width:700px;
+				height:227px;
+				margin:auto;
+				float:left;
+			 }
+			 /* ^ Hijo */ #fotoPQ {
+			   				width:700px;
+							height:227px;
+							margin:1px 0px 0px 0px;
+							float:right;
+			 			  }
+/* ^ Hijo */ #rell8{
+			    width:960px;
+				height:38px;
+				margin:auto;
+				background:url("../images/BodyCent-3_27.jpg") no-repeat;
+				float:left;
+			 }
+/* ^ Hijo */ #bodyCent3 {
+			    width:700px;
+				height:511px;
+				margin:auto;
+				float:left;
+				background:white;
+			 }
+			 /* ^ Hijo */#bodyCent3-1{
+			 				width:256px;
+			 				float:left;
+			 			 }
+						  /* ^ Hijo */#cotiz {
+			   							width:256px;
+										height:66px;
+										margin:auto;
+										float:left;
+										background:url("../images/BodyCent-3_34.jpg") repeat-y;
+                                        }
+                                        
+                                        #cotiz a {
+                                            float: left;
+                                        }
+                                        
+                                        #rell10 p {
+                                            font-family: Arial;
+                                            font-size: 13px;
+                                            font-weight: bold;
+                                            color: #25466a;
+                                            text-align: left;
+                                            margin: 70px 0px 0px 25px;
+                                        }
+						  				/* ^ Hijo */ #email{
+						  								margin-top:25px;
+						  								width:auto;
+														height:30px;
+														background:#0cc980;
+														float:left;
+                                                        }
+                                                        
+                                                        #email h1 {
+                                                            color: white;
+                                                            font-size: 20px;
+                                                            margin: 0px 40px 0px 30px;
+                                                            font-family: Arial;
+                                                            font-weight: bold;
+                                                        }
+                                                        
+                                                        #email1 {
+                                                            margin-top: 25px;
+                                                            width: 13px;
+                                                            height: 30px;
+                                                            background: #0abe67;
+                                                            float: left;
+                                                        }
+                                                        
+                                                        #email2 {
+                                                            margin-top: 25px;
+                                                            width: 5px;
+                                                            height: 30px;
+                                                            background: #08ad51;
+                                                            float: left;
+                                                        }
+						  	/* ^ Hijo */#suscrip {
+			   								width:256px;
+											height:75px;
+											margin:auto;
+											background:url("../images/BodyCent-3_34.jpg") repeat-y;
+											float:left;
+                                        }
+                                        
+                                        #suscrip table {
+                                            width: 256px;
+                                            height: 75px;
+                                            margin: auto;
+                                        }
+                                        
+                                        #suscrip table form {
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-size: 12px;
+                                            width: inherit;
+                                            text-align: right;
+                                            margin: 0px 10px 0px 0px;
+                                        }
+                                        
+                                        #suscrip table p {
+                                            font-family: Arial, Helvetica, sans-serif;
+                                            font-size: 12px;
+                                            color: #666666;
+                                            text-align: left;
+                                            margin: 0px 0px 0px 25px;
+                                        }
+                                        
+                                        textarea {
+                                            height: 10px;
+                                        }
+                                        
+                                        #rell13 {
+                                            width: 162px;
+                                            height: 50px;
+                                            margin: auto;
+                                            background: white;
+                                            float: left;
+                                        }
+                                        
+                                        #suscripbtn {
+                                            width: 94px;
+                                            height: 50px;
+                                            margin: auto;
+                                            float: left;
+                                        }
+						  
+						  #bodyCent3-2{
+						  	width:444px;
+			 				float:right;
+			 			  }
+						  /* ^ Hijo */#rell9 {
+			   							width:444px;
+										height:66px;
+										margin:auto;
+										float:left;
+                                        }
+                                        
+                                        #rell9 h1 {
+                                            margin: 15px 0px 0px 20px;
+                                            text-align: left;
+                                            color: #1c4060;
+                                        }
+                                        
+                                        #rell10 {
+                                            width: 256px;
+                                            height: 111px;
+                                            margin: auto;
+                                            background: url("../images/BodyCent-3_34.jpg") repeat-y white;
+                                            float: left;
+                                        }
+                                        
+                                        .UltimasOf {
+                                            text-align: left;
+                                        }
+                                        
+                                        .UltimasOf .ZonaInf {
+                                            width: auto;
+                                            float: left;
+                                            color: white;
+                                            margin: 20px 0px 0px 150px;
+                                        }
+                                        
+                                        .UltimasOf .ZonaInf p {
+                                            font-size: 12px;
+                                            margin: 0px 0px 0px 0px;
+                                        }
+                                        
+                                        .UltimasOf .ZonaInf h3 {
+                                            margin: 0px 0px 0px 0px;
+                                        }
+                                        
+                                        .UltimasOf .DolarCos {
+                                            width: auto;
+                                            float: right;
+                                            color: white;
+                                            margin: 30px 50px 0px 0px;
+                                        }
+                                        
+                                        .UltimasOf .DolarCos p {
+                                            font-size: 12px;
+                                            display: block;
+                                            float: left;
+                                        }
+                                        
+                                        .UltimasOf .DolarCos h3 {
+                                            display: block;
+                                            float: right;
+                                            margin: 10px 0px 0px 5px;
+                                        }
+                                        
+                                        #RoyalC {
+                                            width: 444px;
+                                            height: 101px;
+                                            margin: auto;
+                                            float: left;
+                                            background: url("../images/BodyCent-3_31.jpg") center no-repeat;
+                                        }
+                                        
+                                        #Carnival {
+                                            width: 444px;
+                                            height: 101px;
+                                            margin: auto;
+                                            float: right;
+                                            background: url("../images/BodyCent-3_33.jpg") center no-repeat;
+                                        }
+                                        
+                                        #Cele1 {
+                                            width: 444px;
+                                            height: 101px;
+                                            margin: auto;
+                                            float: right;
+                                            background: url("../images/BodyCent-3_36.jpg") center no-repeat;
+                                        }
+                                        
+                                        #Cele2 {
+                                            width: 444px;
+                                            height: 101px;
+                                            margin: auto;
+                                            float: right;
+                                            background: url("../images/BodyCent-3_37.jpg") center no-repeat;
+                                        }
+						  #MasInfo{
+						  	width:444px;
+							height:46px;
+							margin:auto;
+							float:right;
+							text-align:right;
+						  }
+						  #MasInfo a{
+						  	color:#FF6100;
+							font-family:Arial, Helvetica, sans-serif;
+							font-size:11px;
+							font-weight:bold;
+							margin-right:20px;
+						  }
+/* ^ Hijo */ #bodyCent3PQ {
+			    width:256px;
+				height:511px;
+				margin:auto;
+				float:left;
+				background:white;
+			 }
+			 /* ^ Hijo */ #buscaPQ {
+			   				width:256px;
+							height:151px;
+							float:left;
+							text-align:left;
+							margin:auto;
+							background:url("../images/BodyCent-3_34.jpg") repeat-y;
+			 			  }
+/* ^ Hijo */ #test {
+	width:262px;
+	height:511px;
+	margin:auto;
+	float:left;
+			 }
+/* ^ Hijo */ #testPQ {
+				width:710px;
+				float:left;
+			 }
+			 /* ^ Hijo */ #testPQ h2 {
+			 				margin-top:20px;
+							margin-left:60px;
+							font-family:Arial, Helvetica, sans-serif;
+							font-style:italic;
+							font-size:18px;
+							font-weight:bold;
+							text-align:left;
+							color:#25466a;
+			 			  }
+						  #testPQ p {
+							font-family:Arial, Helvetica, sans-serif;
+							margin-left:60px;
+							margin-right:100px;
+							font-style:italic;
+							font-size:12px;
+							font-weight:bold;
+							text-align:justify;
+							color:#666666;
+			 			  }
+#abajo{
+	height:75px;
+	width:966px;
+	float:left;
+}
+#abajo p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-align:left;
+	color:#666666;
+}
+#abajo a{
+	color:#ff6100;
+}
+/* No se que es esto, supongo lo hicieron ustedes -- Ignacio Salcedo -- */
+
+/*#tablabuscar tr td {
+	padding: 5px;
+}
+#tablabuscar tr td select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #25466A;
+	padding: 4px;
+	width: 245px;
+}
+.texto {
+	float: left;
+	width: 670px;
+	padding-top: 15px;
+	padding-left: 40px;
+}
+.texto h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #25466a;
+	text-align: left;
+	letter-spacing: -1px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+.texto h3 {
+	color: #F60;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.texto p {
+	font-size: 14px;
+	text-align: justify;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	line-height: 20px;
+	color: #333;
+}
+*/
